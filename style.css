@@ -1,0 +1,39 @@
+* {
+    border: solid black 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    background-color: aquamarine;
+    border: dotted rgb(22, 116, 133) 3px;
+    flex: 1;
+    aspect-ratio: 1/1;
+}
+
+#start {
+    padding: 9px 6px;
+    font-size: 2rem;
+    border-radius: 15px;
+    flex-shrink: 1;
+}
