@@ -1,5 +1,6 @@
 * {
-    border: solid black 1px;
+    /* border is used for debugging */    
+    /* border: solid black 1px; */
     margin: 0px;
     padding: 0px;
 }
@@ -26,7 +27,8 @@ body {
 
 .box {
     background-color: aquamarine;
-    border: solid rgb(22, 116, 133) 3px;
+    /* border is used for debugging */
+    /* border: solid rgb(22, 116, 133) 1px; */
     flex: 1;
     aspect-ratio: 1/1;
 }
