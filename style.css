@@ -26,7 +26,7 @@ body {
 
 .box {
     background-color: aquamarine;
-    border: dotted rgb(22, 116, 133) 3px;
+    border: solid rgb(22, 116, 133) 3px;
     flex: 1;
     aspect-ratio: 1/1;
 }
