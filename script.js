@@ -33,7 +33,7 @@ const number = button.addEventListener('click', () => {
             // box.textContent = "changed";
         });
         box.addEventListener ('mouseout', () => {
-            box.setAttribute('style','color: blue; background: aquamarine;');
+            box.setAttribute('style','color: blue; background: red;');
             // box.textContent = "changed";
         });
     });
